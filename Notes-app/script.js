@@ -35,7 +35,7 @@ notesContainer.addEventListener("click", (e) => {
         updateStorage();
       };
     });
-  }
+  };
 });
 
 document.addEventListener("keydown",(e)=>{
