@@ -27,11 +27,12 @@
   border-radius: 30px;
 }
 
-.open-popup {
-  visibility: visible !important;
-  top: 50% !important;
-  transform: translate(-50%, -50%) scale(1) !important;
+.popup.open-popup {
+  visibility: visible ;
+  top: 50% ;
+  transform: translate(-50%, -50%) scale(1) ;
 }
+
 
 .popup {
   width: 400px;
@@ -47,7 +48,7 @@
   visibility: hidden;
   transition: transform 0.4s, top 0.4s;
 }
-
+ 
 .popup img {
   width: 100px;
   margin-top: -50px;
